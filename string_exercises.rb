@@ -100,13 +100,13 @@ puts a_string.length         # => 5
 second_string = SimpleString.new("")
 puts second_string.length    # => 0
 
-# #end_with?
+# end_with?
 a_string = SimpleString.new("hello")
 puts a_string.end_with?("o")      # => true
 puts a_string.end_with?("x")      # => false
 puts a_string.end_with?("ello")   # => true
 
-# #upcase
+# upcase
 a_string = SimpleString.new("hello")
 puts a_string.upcase         # => "HELLO"
 second_string = SimpleString.new("BYE")
